@@ -26,11 +26,4 @@ while True:
         break
 vs.release()
 cv2.destroyAllWindows()    
-# _,img=vs.read() #read camera frames
-#     img=imutils.resize(img,width=920) #resize the img
-#     blur=cv2.GaussianBlur(img,(21,21),0) #blur the image
-#     hsv=cv2.cvtColor(blur,cv2.COLOR_BGR2HSV) # normal to Hsv formate
-#     mask=cv2.inRange(hsv,uppervalue,lowervalue) 
-#     mask=cv2.erode(mask,None,iterations=2) # apply erodetion and dialtion methode
-#     mask=cv2.dilate(mask,None,iterations=2)
-#     cnts=cv2.findContours(mask.copy(),cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)[-2] # take contours value 
+
